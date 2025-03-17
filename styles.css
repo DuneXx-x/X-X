@@ -1,0 +1,36 @@
+body {
+    font-family:'sans-serif';
+    line-height: 1.6;
+    margin: 20px;
+    background-color: white;
+}
+
+.member-profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.member {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.member img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.member strong {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.member em {
+    font-style: italic;
+}
